@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+/* ----------------------------------- Colours */
+
+.btn-blue {
+    background-color: #286994;
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* ----------------------------------- Special paddings/margins/text */
+
+h1, 
+h2, 
+h3, 
+h4 {
+    margin: 0;
+}
+
+/* ---------------------------------- Header */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #286994;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #286994;
+}
+
+.logo a:hover {
+    color:#91D3FF;
+}
+
+.menucontainer {
+    font-size: 0;
+    padding-top: 25px;
+}
+
+.menuitem {
+    padding: 0;
+    text-align: center;
+    height: 50px;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 20px;
+    padding: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #286994;
+}
+
+.menuitem a:hover {
+    color: #91D3FF;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', cursive;
+    font-weight: 500;
+}
+
+/* ----------------------------------- Hero Image */
+
+.hero-image {
+    background: url("../images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+#hero-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+.hero-text-container {
+    background-color: #fff;
+    width: 30%;
+    height: 360px;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+    left: 60%;
+    bottom: 200%;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Montserrat', cursive;
+    font-weight: 400;
+}
+
+.btn-gallery:hover {
+
+    background-color: #91D3FF;
+}
+
+/* ----------------------------------- Front Page */
+
+.about-snippet {
+    font-family: 'Montserrat', cursive;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.frontpage-artwork {
+    height: 250px;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ----------------------------------- Footer */
+
+
+footer {
+    padding: 0;
+    background-color: #E0AF69;
+    font-family: 'Montserrat', cursive;
+}
+
+
+.footer-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-info a:hover {
+    color: #286994;
+}
+
+.btn-newsletter:hover {
+    background-color: #91D3FF;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #286994;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social-links li a i:hover {
+    background-color: #91D3FF;
+}
+
+
+/* ----------------------------------- Media Queries */
+
+@media (min-width: 768px) { 
+    .logo {
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .menucontainer {
+        font-size: 0;
+        padding-top: 18px;
+    }
+
+
+
+}
+
+@media(min-width: 992px) {
+    .logo {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    .menucontainer {
+        font-size: 0;
+        padding-top: 25px;
+    }
+}
+
