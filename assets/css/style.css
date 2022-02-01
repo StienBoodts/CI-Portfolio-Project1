@@ -95,7 +95,7 @@ header {
 
 /* ----------------------------------- Hero Image */
 
-.hero-image {
+#hero-image {
     background: url("../images/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -112,6 +112,7 @@ header {
     height: 400px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 @keyframes hero-zoom {
@@ -123,20 +124,22 @@ header {
     }
 }
 
-.hero-text-container {
-    background-color: #fff;
-    width: 30%;
-    height: 360px;
-    padding-top: 30px;
-    padding-left: 20px;
-    position: relative;
-    top: 20px;
-    left: 60%;
-    bottom: 200%;
-    z-index: 1;
-    display: inline-block;
+#hero-text {
+    font-size: 80%;
     font-family: 'Montserrat', cursive;
     font-weight: 400;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    bottom: 30px;
+    right: 10%;
+    position: absolute;
+}
+
+.btn-gallery {
+    margin-top: 10px;
 }
 
 .btn-gallery:hover {
