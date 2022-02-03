@@ -153,13 +153,45 @@ header {
     width: 300px;
     padding-top: 10px;
     padding-bottom: 30px;
+    margin-bottom: 10px;
 }
+
+/* ----------------------------------- Gallery */
+
+#art-gallery {
+    line-height: 10px;
+    margin: 10%;
+    float: center;
+}
+
+.gallery-frame {
+    padding: 10px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.canvas-square {
+
+}
+
+.canvas-rectangle {
+
+}
+
+.canvas-vertical {
+    object-fit: scale-down;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
 
 /* ----------------------------------- Footer */
 
 
 footer {
-    padding: 0;
+    padding-top: 0;
     background-color: #E0AF69;
     font-family: 'Montserrat', cursive;
 }

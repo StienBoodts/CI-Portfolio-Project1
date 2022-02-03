@@ -32,6 +32,7 @@ An online portfolio and gallery to showcase and sell artwork by JL Henshaw. Wher
 - #### Colour Scheme
 
 <img src="planning/color-scheme.jpg" width="200"/><br>
+Color scheme accessible to color blind users.
 
 - #### Typography
 
