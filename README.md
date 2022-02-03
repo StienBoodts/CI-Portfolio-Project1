@@ -1,6 +1,6 @@
 # Llewelyn Henshaw Art Website
 
-An online portfolio and gallery to showcase and sell artwork by JL Henshaw. Where art and interior lovers can shop, find out more about the artist and enquire about commission pieces. It is designed to be accessible on a range of devices, so customers can browse at their convenience. This is a static front-end website, designed as an assessed project for Code Institute's Web Development Course.
+An online portfolio and gallery to showcase and sell artwork by JL Henshaw. Where art and interior lovers can shop, find out more about the artist and enquire about commission pieces. It is designed to be accessible on a range of devices, so customers can browse at their convenience. This is a static front-end website (HTML & CSS), designed as an assessed project for Code Institute's Web Development Course.
 
 [//]: # (Add image here of finished website - on different screensizes if possible)
 

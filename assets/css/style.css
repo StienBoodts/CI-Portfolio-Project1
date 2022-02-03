@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+.btn-blue:hover {
+    background-color: #91D3FF;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -159,33 +163,50 @@ header {
 /* ----------------------------------- Gallery */
 
 #art-gallery {
-    line-height: 10px;
     margin: 10%;
-    float: center;
 }
 
 .gallery-frame {
     padding: 10px;
-    width: 100%;
-    object-fit: fill;
 }
 
 .canvas-square {
-
+    object-fit: scale-down;
+    padding: 10px;
 }
 
 .canvas-rectangle {
-
-}
-
-.canvas-vertical {
     object-fit: scale-down;
-    padding: 0;
-    margin: 0;
     padding: 10px;
-    width: 100%;
 }
 
+.canvas-long {
+    object-fit: scale-down;
+    padding: 10px;
+}
+
+/* ----------------------------------- Contact */
+
+#contact-me {
+    font-family: 'Montserrat', cursive;
+}
+
+#form-header {
+    color: #286994;
+    text-align: center;
+}
+
+#contact-me p {
+    text-align: center;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+input[type=text] {
+    
+}
 
 /* ----------------------------------- Footer */
 
