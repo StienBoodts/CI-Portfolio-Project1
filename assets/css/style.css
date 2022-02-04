@@ -19,6 +19,11 @@
 
 /* ----------------------------------- Special paddings/margins/text */
 
+*{
+    margin:0;
+    padding:0;
+}
+
 h1, 
 h2, 
 h3, 
@@ -162,6 +167,12 @@ header {
 
 /* ----------------------------------- Gallery */
 
+#gallery-header {
+    color: #286994;
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+}
+
 #art-gallery {
     margin: 10%;
 }
@@ -198,16 +209,26 @@ header {
 
 #contact-me p {
     text-align: center;
+    margin-top: 10px;
 }
 
 .contact-form {
-    text-align: center;
+   background-color:rgba( 105, 177, 224, 0.5);
+   color: #fff;
+   text-align: center;
+   border-radius: 5px;
+   display: block;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
-input[type=text] {
-    
+input, label {
+    margin: .4rem 0;
 }
 
+label {
+    text-align: left;
+}
 /* ----------------------------------- Footer */
 
 
