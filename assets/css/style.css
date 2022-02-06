@@ -68,6 +68,7 @@ header {
 .menucontainer {
     font-size: 0;
     padding-top: 25px;
+    text-align: center;
 }
 
 .menuitem {
@@ -83,6 +84,7 @@ header {
 #nav li {
     font-size: 20px;
     padding: 0;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -220,15 +222,15 @@ header {
 #contact-form-section {
     background-image: url("/assets/images/contact-background.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top 100px;
     background-attachment: fixed;
 }
 
 
-#contact-me p {
+#contact-me-intro p {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px;
+    
 }
 
 .contact-form {
@@ -255,6 +257,10 @@ input, textarea {
 
 input:hover, textarea:hover {
     border-color: #E0AF69;
+}
+
+.btn-form:hover {
+    border-color: #91D3FF;
 }
 
 label {
@@ -313,12 +319,12 @@ footer {
     .logo {
         padding-top: 20px;
         padding-left: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .menucontainer {
         font-size: 0;
-        padding-top: 18px;
+        padding-top: 16px;
     }
 
     #hero-text {
@@ -337,9 +343,9 @@ footer {
 
 @media(min-width: 992px) {
     .logo {
-        padding-left: 50px;
+        padding-left: 20px;
         padding-top: 20px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .menucontainer {
