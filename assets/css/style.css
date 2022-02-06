@@ -247,6 +247,16 @@ input, label {
     margin: .4rem 0;
 }
 
+input, textarea {
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+
+input:hover, textarea:hover {
+    border-color: #E0AF69;
+}
+
 label {
     text-align: left;
 }
