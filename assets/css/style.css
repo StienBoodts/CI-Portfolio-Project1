@@ -41,6 +41,10 @@ h4 {
     text-decoration: underline;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* ---------------------------------- Header */
 
 header {
@@ -204,13 +208,64 @@ header {
 
 /* ----------------------------------- About */
 
-.background-image {
-    background-image: url("/assets/images/contact-background.jpg");
+#about-the-artist p {
+    margin: 30px;
+    font-family: 'Montserrat', cursive;
+}
+
+
+#venues-section {
+    background-image: url("/assets/images/pexels-markus-spiske-2559741.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 450px;
+    text-align: center;
+    clear: both;
 }
+
+.venues {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px;
+    height: 400px;
+    width: 90vw;
+    display: inline-block;
+}
+
+.venues h2 {
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+    font-weight: 500;
+    color: #5E4016;
+    padding-top: 10px;
+}
+
+.gallery-wrapper {
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.art-gallery-frame {
+    height: 200px;
+    width: 200px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 100px;
+    border-color: #E0AF69;
+    margin: 20px 50px;
+    overflow: hidden;
+}
+
+.gallery-wrapper p {
+    font-family: 'Montserrat', cursive;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
 
 /* ----------------------------------- Contact */
 
@@ -229,8 +284,7 @@ header {
 
 #contact-me-intro p {
     text-align: center;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 .contact-form {
@@ -332,7 +386,7 @@ footer {
         height: 300px;
         padding-top: 30px;
         padding-left: 20px;
-        bottom: 30px;
+        bottom: 50px;
         right: 5%;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.7);
