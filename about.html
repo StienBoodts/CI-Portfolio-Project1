@@ -31,40 +31,48 @@
                 </div>
             </div>
     </header>
-    <section>
         <h2 class="page-heading">About The Artist</h2>
-        <section class="container-fluid" id="about-the-artist">
-            <p>
-            Llewelyn Henshaw grew up in South Wales. From a young age he proved to be artistic, winning art prizes in competitions from primary school age onwards.
-            His love for the mountains and ocean pulled him to distant shores across his life. From the steep valleys of the Alps, through the southern sounds of New Zealand, to the tropical beaches of French Polynesia.
-            He all called them home. His multi-facetted journey has left him with massive inspiration. Recently, James left his teaching carreer, in search for a more creative and artistic way of living.
-            His journey is currently taking him through Europe on the search for the next inspirational landscape.
-            </p>
+        <section class="container-fluid" id="about-the-artist-section">
+            <div class="row">
+                <div class="about-photo-frame col-12 col-md-4">
+                    <div id="portrait-photo" class="mx-auto">
+                        <img src="/assets/images/pexels-stefan-stefancik-91227.jpg" height="300px" alt="Llewelyn Henshaw Artist Portrait">
+                    </div>
+                </div>
+                <div class="about-text col-12 col-md-8 align-self-center">
+                    <p>
+                    Llewelyn Henshaw grew up in South Wales. From a young age he proved to be artistic, winning art prizes in competitions from primary school age onwards.
+                    His love for the mountains and ocean pulled him to distant shores across his life. From the steep valleys of the Alps, through the southern sounds of New Zealand, to the tropical beaches of French Polynesia.
+                    When not painting you'll find him in the waves. His multi-facetted journey has left him with massive inspiration. Recently, James left his teaching carreer, in search for a more creative and artistic way of living.
+                    His journey is currently taking him through Europe on the search for the next inspirational landscape (and perfect waves).
+                    </p>
+                </div>
+            </div>
         </section>
         <section id="venues-section">
                     <div class="venues">
                         <h2>Art Galleries</h2>
                             <div class="gallery-wrapper">
                                 <div class="art-gallery-frame">
-                                    <img src="/assets/images/pexels-furkanfdemir-6309756.jpg" height="200px">
+                                    <img src="/assets/images/pexels-furkanfdemir-6309756.jpg" height="200px" alt="Peterson Art Gallery">
                                 </div>
                                 <p>Peterson Art, St. Davids</p>
                             </div>
                             <div class="gallery-wrapper">
                                 <div class="art-gallery-frame">
-                                    <img src="/assets/images/pexels-erik-mclean-7146608.jpg" height="200px">
+                                    <img src="/assets/images/pexels-erik-mclean-7146608.jpg" height="200px" alt="The Edge Art Gallery">
                                 </div>
                                 <p>The Edge Art, Mumbles</p>
                             </div>
                             <div class="gallery-wrapper">
                                 <div class="art-gallery-frame">
-                                    <img src="/assets/images/pexels-rachel-claire-5490916.jpg" height="200px">
+                                    <img src="/assets/images/pexels-rachel-claire-5490916.jpg" height="200px" alt="Pairon Art Gallery">
                                 </div>
                                 <p>Pairon, Biarritz</p>
                             </div>
                             <div class="gallery-wrapper">
                                 <div class="art-gallery-frame">
-                                    <img src="/assets/images/pexels-godisable-jacob-1321552.jpg" height="200px">
+                                    <img src="/assets/images/pexels-godisable-jacob-1321552.jpg" height="200px" alt="Bay Coffee & Art">
                                 </div>
                                 <p>Bay Coffee & Art, Sagres</p>
                             </div>
@@ -72,19 +80,53 @@
                 </div>
         </section>
         <section id="markets-section">
-                    <div class="venues">
-                        <h2>Markets</h2>
+            <div class="row">
+                <div class="about-text col-12 col-md-8">
+                    <h2>Markets</h2>
+                    <p>
+                    Would you like to see LH in action? On his travels through Europe, he'll be stopping at the following markets to paint and sell his artwork. Come and share a coffee, if you're in the area!
+                    </p>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Country</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">12/04/22</th>
+                            <td>Easter Market, St. Davids</td>
+                            <td>Wales</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">21/6/22</th>
+                            <td>Solstice Festival, Gower</td>
+                            <td>Wales</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">05/08/22</th>
+                            <td>Trammelant, De Haan</td>
+                            <td>Belgium</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="markets-photo-frame col-12 col-md-4">
+                    <div id="markets-photo" class="mx-auto">
+                        <img src="/assets/images/pexels-gabriel-peter-763903.jpg" height="300px" alt="art markets">
                     </div>
                 </div>
+                
             </div>
         </section>
-    </section>
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
                 <p class="inline-block">
                     <ul class="footer-info">
-                        <li><h5>Open for commissions!</h5></li>
+                        <li><h3>Open for commissions!</h3></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="shipping.html">Shipping Info</a></li>
                         <li>Interiors Designed by <a href="https://www.freepik.com/search?format=search&query=wall%20art%20mockup&selection=1" target="_blank">Freepik</a>.</li> 
@@ -93,8 +135,9 @@
             </div>
             <div class="col-sm-4">
                 <p class="inline-block newsletter-signup">
-                    <h5>Newsletter Sign Up</h5>
+                    <h3>Newsletter Sign Up</h3>
                     <form>
+                        <label for="emailaddress" class="sr-only">Email:</label>
                         <input type="email" name="email" id="emailaddress" placeholder="email" class="email-input">
                         <button type="submit" class="btn btn-sm btn-blue btn-newsletter">Sign Up</button>
                     </form>
@@ -102,7 +145,7 @@
             </div>
             <div class="col-sm-4">
                 <p class="inline-block">
-                    <h5>Social</h5>
+                    <h3>Social</h3>
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a target="_blank" href="#">

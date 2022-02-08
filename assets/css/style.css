@@ -36,9 +36,9 @@ h4 {
     text-align: center;
     font-family: 'Montserrat', cursive;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .active {
@@ -208,26 +208,45 @@ header {
 
 /* ----------------------------------- About */
 
-#about-the-artist p {
-    margin: 30px;
-    font-family: 'Montserrat', cursive;
+#about-the-artist-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;  
 }
 
+.about-photo-frame {
+    height: 80%;
+    overflow: hidden;
+}
+
+#portrait-photo {
+    display: block;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat', cursive;
+    display: inline-block;
+}
 
 #venues-section {
     background-image: url("/assets/images/pexels-markus-spiske-2559741.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 450px;
+    height: 100%;
     text-align: center;
     clear: both;
+    margin-top: 20px;
 }
 
 .venues {
     background-color: rgba(255, 255, 255, 0.7);
     margin: 20px;
-    height: 400px;
+    height: 100%;
     width: 90vw;
     display: inline-block;
 }
@@ -265,8 +284,34 @@ header {
     font-weight: 500;
 }
 
+#markets-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;   
+}
 
+#markets-section h2 {
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+    font-weight: 500;
+    color: #5E4016;
+    padding-top: 10px;
+}
 
+.table {
+    font-size: 14px;
+}
+
+.markets-photo-frame {
+    margin-top: 20px;
+    height: 80%;
+    overflow: hidden;
+}
+
+#markets-photo {
+    display: block;
+    width: 350px;
+}
 /* ----------------------------------- Contact */
 
 #contact-me-intro {
