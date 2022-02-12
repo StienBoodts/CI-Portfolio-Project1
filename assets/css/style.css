@@ -183,28 +183,84 @@ header {
 
 /* ----------------------------------- Gallery */
 
-#art-gallery {
-    margin: 10%;
+#gallery {
+    margin: 5%;
+    height: 100%;
 }
 
-.gallery-frame {
-    padding: 10px;
+.painting-orientation-heading {
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+    font-weight: 500;
+    color: #5E4016;
+    padding-top: 10px;
 }
 
-.canvas-square {
-    object-fit: scale-down;
-    padding: 10px;
+.painting-wrapper {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 5%;
 }
 
-.canvas-rectangle {
-    object-fit: scale-down;
-    padding: 10px;
+.painting-frame-landscape {
+    height: 242px;
+    width: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -135px;
 }
 
-.canvas-long {
-    object-fit: scale-down;
-    padding: 10px;
+.painting-frame-square {
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -135px;
 }
+
+.painting-frame-panoramic {
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -135px 0 0 -135px;
+    display: flex;
+    justify-content: center;
+}
+
+.painting-frame-panoramic img {
+    height: 135px;
+    width: auto;
+}
+
+.painting-frame-vertical {
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -135px;
+}
+
+.title {
+    font-family: 'Montserrat', cursive;
+    font-size: 1.2em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+
 
 /* ----------------------------------- About */
 
@@ -413,6 +469,50 @@ footer {
 }
 
 /* ----------------------------------- Media Queries */
+
+@media (max-width: 768px) {
+   
+    .painting-frame-landscape {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -155px 0 0 -135px;
+    }
+
+    .painting-frame-panoramic {
+        overflow: hidden;
+    }
+
+    .square-title {
+        position: absolute;
+        bottom: -10px;
+        left: 20%;
+        right: 20%;
+    }
+
+    .landscape-title {
+        position: absolute;
+        bottom: 30px;
+        left: 20%;
+        right: 20%;
+    }
+    
+    .panoramic-title {
+        position: absolute;
+        bottom: 50px;
+        left: 20%;
+        right: 20%;
+    }
+
+    .vertical-title {
+        position: absolute;
+        bottom: -10px;
+        left: 20%;
+        right: 20%;
+    }
+}
+
+
 
 @media (min-width: 768px) { 
     .logo {
