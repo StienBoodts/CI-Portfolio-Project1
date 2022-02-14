@@ -483,6 +483,18 @@ footer {
     padding-top: 0;
     background-color: #E0AF69;
     font-family: 'Montserrat', cursive;
+    text-align: center;
+}
+
+footer .commissions,
+footer .signup-form,
+footer .social {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer h3 {
+    padding-bottom: 10px;
 }
 
 .footer-info {
@@ -495,6 +507,7 @@ footer {
     color: black;
 }
 
+
 .footer-info a:hover {
     color: #286994;
 }
@@ -503,12 +516,16 @@ footer {
     background-color: #91D3FF;
 }
 
+.social-links li {
+    margin: 0;
+}
+
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -527,6 +544,8 @@ footer {
 
 @media (max-width: 768px) {
    
+    /* Gallery */
+
     .painting-frame-landscape {
         position: absolute;
         top: 50%;
@@ -565,9 +584,8 @@ footer {
         left: 20%;
         right: 20%;
     }
+
 }
-
-
 
 @media (min-width: 768px) { 
     .logo {
@@ -592,6 +610,10 @@ footer {
         background-color: rgba(255, 255, 255, 0.7);
         text-align: right;
     }
+
+    footer h3 {
+        font-size: 1.3em;
+    }
     
 }
 
@@ -613,6 +635,10 @@ footer {
 
     .freepik {
         padding-right: 10%;
+    }
+
+    footer h3 {
+        font-size: 1.6em;
     }
 }
 
