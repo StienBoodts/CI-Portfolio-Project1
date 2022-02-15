@@ -337,8 +337,8 @@ header {
 }
 
 .about-text p {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-family: 'Montserrat', cursive;
     display: inline-block;
 }
@@ -411,6 +411,8 @@ header {
 
 .table {
     font-size: 14px;
+    margin: 1rem;
+    width: 95%;
 }
 
 .markets-photo-frame {
@@ -477,6 +479,25 @@ label {
     text-align: left;
 }
 
+/* ----------------------------------- Shipping Info */
+
+#shipping-info-section {
+    background-color:rgb(166, 205, 231);
+    padding-top: 1rem;
+}
+
+.shipping-info {
+    font-family: 'Montserrat', cursive;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.signup-arrows {
+    margin-top: 3rem;
+    color:#E0AF69;
+}
 /* ----------------------------------- Footer */
 
 footer {
