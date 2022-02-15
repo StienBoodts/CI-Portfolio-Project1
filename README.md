@@ -1,7 +1,7 @@
 # Llewelyn Henshaw Art Website
 
-An online portfolio and gallery to showcase and sell artwork by JL Henshaw. Where art and interior lovers can shop, find out more about the artist and enquire about commission pieces. It is designed to be accessible on a range of devices, so customers can browse at their convenience. This is a static front-end website (HTML & CSS), designed as an assessed project for Code Institute's Web Development Course.
-
+An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw. An online destination where art and interior lovers can shop, find out more about the artist and enquire about commission pieces. It is designed to be accessible on a range of devices, so customers can browse at their convenience. 
+ 
 [//]: # (Add image here of finished website - on different screensizes if possible)
 
 
@@ -42,4 +42,56 @@ Color scheme accessible to color blind users.
 - #### Imagery
 
 Interior images are used to help customers imagine what the art will look like in their homes. These were created with Freepik.
+
+## Features
+--
+
+### Existing Features
+
+- __Navigation Bar__
+
+Includes a click-able 'logo' and links to all other pages on the website: gallery, about & contact.
+Navigation bar remains the same on every page on the website to navigate easily back and forth between pages without the need of the browser's own buttons.
+'Home' link was provided but flagged up in accessability testing as redundant link due to the clickable logo, so it was removed from nav bar.
+
+<img src="planning/navbar.jpg" width="200"/><br>
+
+- __Landing Page Image__
+
+With the landing page image and text, the user instantly knows what the webiste is about. It also offers an interior example of the artwork made by Llewelyn Henshaw, which is available on the website. They can see how the art could look in the interior of their favourite room. The wall mock up was designed by [Freepik](https://www.freepik.com/).
+
+<img src="planning/landing-page-image.jpg" width="200"/><br>
+
+- __Landing Page Gallery__
+
+A snippet about the artist and a 'sneak peek' of more art pieces available in the gallery.
+
+- __Footer__
+
+- __Gallery__
+
+- __About__
+
+- __Contact__
+
+### Features Left To Implement
+
+- __Shipping Info__
+
+## Testing 
+
+- HTML
+- CSS
+
+### Validator Testing 
+
+### Unfixed Bugs
+
+## Deployment
+
+## Credits & Resources
+
+### Content 
+
+### Media
 
