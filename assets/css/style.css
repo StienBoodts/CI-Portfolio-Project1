@@ -17,7 +17,15 @@
     display: inline-block;
 }
 
+a {
+    color:#00254D;
+}
+
 /* ----------------------------------- Special paddings/margins/text */
+
+body {
+    font-family: 'Montserrat', cursive;
+}
 
 *{
     margin:0;
@@ -45,6 +53,10 @@ h4 {
     font-weight: 800;
 }
 
+.center {
+    text-align: center;
+}
+
 /* ---------------------------------- Header */
 
 header {
@@ -66,7 +78,7 @@ header {
 }
 
 .logo a:hover {
-    color:#91D3FF;
+    color:#00254D;
 }
 
 .menucontainer {
@@ -101,7 +113,7 @@ header {
 }
 
 .menuitem a:hover {
-    color: #91D3FF;
+    color: #00254D;
 }
 
 .menuitem span {
@@ -164,6 +176,13 @@ header {
     background-color: #91D3FF;
 }
 
+.freepik {
+    text-align: right;
+    font-family: 'Montserrat', cursive;
+    color: #5E4016;
+    font-size: 0.7em;  
+}
+
 /* ----------------------------------- Front Page */
 
 .about-snippet {
@@ -181,10 +200,45 @@ header {
     margin-bottom: 10px;
 }
 
+.paintbrush {
+    text-align: center;
+    border: #286994;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.paintbrush-icon {
+    color:#286994;
+    display: inline-block;
+}
+
+.fa-rotate-by {
+    transform: rotate(225deg);
+}
+
+.paintbrush-text {
+    color: #286994;
+    font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    display: inline-block;
+}
+
+.paintbrush a {
+    text-decoration: none;
+}
+
 /* ----------------------------------- Gallery */
 
 #slideshow-section {
-    min-height: 60vh;
+    min-height: 33vh;
     width: 100vw;
 }
 
@@ -193,7 +247,7 @@ header {
 }
 
 .slideshow-image {
-    max-height: 50vh;
+    height: 33vh;
     width: 100vw; 
     object-fit: cover;
 }
@@ -227,15 +281,16 @@ header {
     animation-delay: 12s
 }
 
-.freepik {
-    text-align: right;
-    font-family: 'Montserrat', cursive;
-    color: #5E4016;
-    font-size: 0.7em;
+.freepik-gallery {
+    margin-top: 6em;
 }
 
 .freepik a {
     color: #286994;
+}
+
+.gallery-intro {
+    margin: 3rem;
 }
 
 #gallery-section {
@@ -482,21 +537,32 @@ label {
 /* ----------------------------------- Shipping Info */
 
 #shipping-info-section {
-    background-color:rgb(166, 205, 231);
-    padding-top: 1rem;
+    background-image: url("/assets/images/contact-background.jpg");
+    background-size: cover;
+    background-position: top 100px;
+    background-attachment: fixed;
+    text-align: center;
 }
 
 .shipping-info {
     font-family: 'Montserrat', cursive;
-    text-align: center;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 3rem;
+    text-align: center;
+    background-color:rgba( 105, 177, 224, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .signup-arrows {
     margin-top: 3rem;
+    margin-bottom: 0;
     color:#E0AF69;
+    text-align: center;
 }
 /* ----------------------------------- Footer */
 
@@ -563,12 +629,23 @@ footer h3 {
 
 .social-links li a i:hover {
     background-color: #91D3FF;
+    color: black;
+
 }
 
 /* ----------------------------------- Media Queries */
 
+@media (min-width: 576px) {
+    /* Frontpage */
+
+    .paintbrush {
+        width: 60%;
+    }
+
+}
+
 @media (max-width: 768px) {
-   
+
     /* Gallery */
 
     .painting-frame-landscape {
@@ -613,6 +690,9 @@ footer h3 {
 }
 
 @media (min-width: 768px) { 
+
+    /* Frontpage */
+
     .logo {
         padding-top: 20px;
         padding-left: 10px;
@@ -636,6 +716,13 @@ footer h3 {
         text-align: right;
     }
 
+    .paintbrush {
+        width: 35%;
+    }
+
+
+    /* Footer */
+
     footer h3 {
         font-size: 1.3em;
     }
@@ -643,6 +730,9 @@ footer h3 {
 }
 
 @media(min-width: 992px) {
+
+    /* Frontpage*/
+
     .logo {
         padding-left: 20px;
         padding-top: 20px;
@@ -654,6 +744,12 @@ footer h3 {
         padding-top: 25px;
     }
 
+    .paintbrush {
+        width: 28%;
+    }
+
+    /* Gallery */
+
     #slideshow img{
        padding: 0 10% 0 10%;
     }
@@ -662,8 +758,32 @@ footer h3 {
         padding-right: 10%;
     }
 
+    /* Footer */
+
     footer h3 {
         font-size: 1.6em;
     }
+}
+
+@media(min-width: 1200px) {
+    
+    /* Frontpage*/
+
+    .paintbrush {
+        padding-top: 0.5em;
+        padding-left: 0.8em;
+        width: 23%;
+        margin-bottom: 1em;
+    }
+    
+    .paintbrush-text {
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        bottom: 15px;
+        right: 20px;
+    }
+
+
 }
 

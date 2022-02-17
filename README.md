@@ -113,16 +113,26 @@ Page with shipping Info for the purchase of art work.
 
 1. [Bootstrap:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used on parts of the website to make them responsive.
-1. [Code Institute](https://codeinstitute.net/)
-    - general info and practice of HTML, CSS & UX lessons and mini projects taken as reference for the creation of this website.
-1. [CSS-tricks](https://css-tricks.com/)
-    - additional general info on HTML and CSS coding
+1. [Fontawesome](https://fontawesome.com/v6)
+    - Icons and Fontawesome inline styling.
 1. [Freepik](https://www.freepik.com/)
     - Freepik was used to provide the 'mock up' interior walls for displaying artwork.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to edit the interior photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
+
+General Resources in the developing process:
+
+1. [Code Institute](https://codeinstitute.net/)
+    - general info and practice of HTML, CSS & UX lessons and mini projects taken as reference for the creation of this website.
+1. [CSS-tricks](https://css-tricks.com/)
+    - additional general info on HTML and CSS coding
+1. [https://stackoverflow.com/](https://stackoverflow.com/)
+    - solve overlapping divs
+1. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
+    - CSS rotate of Fontawesome icon
+
 
 ## Testing 
 ---
