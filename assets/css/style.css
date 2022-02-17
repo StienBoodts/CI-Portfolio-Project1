@@ -399,7 +399,7 @@ header {
 }
 
 #venues-section {
-    background-image: url("/assets/images/pexels-markus-spiske-2559741.jpg");
+    background-image: url("assets/images/pexels-markus-spiske-2559741.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -537,7 +537,7 @@ label {
 /* ----------------------------------- Shipping Info */
 
 #shipping-info-section {
-    background-image: url("/assets/images/contact-background.jpg");
+    background-image: url("assets/images/contact-background.jpg");
     background-size: cover;
     background-position: top 100px;
     background-attachment: fixed;
