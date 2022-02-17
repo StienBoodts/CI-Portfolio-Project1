@@ -1,8 +1,9 @@
 # Llewelyn Henshaw Art Website
 
 An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw. An online destination where art and interior lovers can shop, find out more about the artist and enquire about commission pieces. It is designed to be accessible on a range of devices, so customers can browse at their convenience. 
- 
-[//]: # (Add image here of finished website - on different screensizes if possible)
+
+<img src="planning/screenshots.jpg" width="500"/><br>
+
 
 
 ## User Experience
