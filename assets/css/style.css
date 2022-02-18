@@ -193,10 +193,9 @@ header {
 }
 
 .frontpage-artwork {
-    height: 250px;
+    height: 224px;
     width: 300px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
