@@ -161,6 +161,9 @@ Add 'badges' to show which art pieces have been added recently.
 - Error: width="270px" in HTML, no need for px. -> Fixed.
 - Error: form action="" blank. -> deleted.
 
+#### CSS
+
+- Error: background-position top and 100px are incompatible.
 
 ### WAVE Web Accessibility Evaluation Tool
 

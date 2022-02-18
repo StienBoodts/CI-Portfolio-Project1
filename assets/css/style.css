@@ -234,6 +234,12 @@ header {
     text-decoration: none;
 }
 
+.paintbrush a:hover,
+.paintbrush-text:hover,
+.paintbrush-icon:hover {
+    color:#E0AF69;
+}
+
 /* ----------------------------------- Gallery */
 
 #slideshow-section {
@@ -492,7 +498,7 @@ header {
 #contact-form-container {
     background: url("../images/contact-background.jpg");
     background-size: cover;
-    background-position: top 100px;
+    background-position: top;
     background-attachment: fixed;
 }
 
@@ -542,7 +548,7 @@ label {
 #shipping-info-section {
     background: url("../images/contact-background.jpg");
     background-size: cover;
-    background-position: top 100px;
+    background-position: top;
     background-attachment: fixed;
     text-align: center;
 }
@@ -625,10 +631,6 @@ footer h3 {
     text-align: center;
     color: #fafafa;
     background: #286994;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
 }
 
 .social-links li a i:hover {
