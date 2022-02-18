@@ -159,6 +159,7 @@ Add 'badges' to show which art pieces have been added recently.
 - Error: button must not appear as descendent of a tag. -> Fixed by adding the btn classes to the a tag and deleting the button tag.
 - Error: no h1, h2, ... inside sections. -> Fixed by changing to semantic HTML tags article and div where appropriate.
 - Error: width="270px" in HTML, no need for px. -> Fixed.
+- Error: form action="" blank. -> deleted.
 
 
 ### WAVE Web Accessibility Evaluation Tool

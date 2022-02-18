@@ -827,11 +827,11 @@ footer h3 {
     /* About */
 
     .about-text p {
-        padding-right: 3rem;
+        padding-right: 6rem;
     }
 
     .markets {
-        padding-left: 5rem;
+        padding-left: 10rem;
     }
 
 }
