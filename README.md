@@ -192,12 +192,15 @@ To deploy the website from the repository onto Github Pages the following steps 
     - additional general info and problem solving on HTML and CSS coding
 1. [https://stackoverflow.com/](https://stackoverflow.com/)
     - solve overlapping divs
+1. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+    - HTML5 Elements Reference
 1. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
     - CSS rotate of Fontawesome icon
 1. [W3C](https://www.w3.org/Style/Examples/007/slideshow.en.html)
     - slideshow using CSS keyframes in gallery.html
 1. [Github Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
     - Github Markdown Cheat Sheet
+
 
 
 ### Media

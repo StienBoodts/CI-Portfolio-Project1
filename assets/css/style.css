@@ -196,7 +196,7 @@ header {
     height: 224px;
     width: 300px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .paintbrush {
@@ -373,7 +373,7 @@ header {
 
 /* ----------------------------------- About */
 
-#about-the-artist-section {
+#life-story {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 100%;  
@@ -391,8 +391,7 @@ header {
 }
 
 .about-text p {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1rem;
     font-family: 'Montserrat', cursive;
     display: inline-block;
 }
@@ -416,7 +415,7 @@ header {
     display: inline-block;
 }
 
-.venues h2 {
+#venues-section h2 {
     text-align: center;
     font-family: 'Montserrat', cursive;
     font-weight: 500;
@@ -470,7 +469,8 @@ header {
 }
 
 .markets-photo-frame {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 80%;
     overflow: hidden;
 }
@@ -483,10 +483,9 @@ header {
 
 #contact-me-intro {
     font-family: 'Montserrat', cursive;
-    text-align: center;
 }
 
-#contact-form-section {
+#contact-form-container {
     background: url("../images/contact-background.jpg");
     background-size: cover;
     background-position: top 100px;
@@ -495,8 +494,9 @@ header {
 
 
 #contact-me-intro p {
-    text-align: center;
-    margin: 20px;   
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;  
 }
 
 .contact-form {
@@ -600,6 +600,7 @@ footer h3 {
 
 .email-input {
     height: 31px;
+    padding-left: 5px;
 }
 
 .btn-newsletter:hover {
@@ -712,7 +713,6 @@ footer h3 {
         right: 5%;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.7);
-        text-align: right;
     }
 
     .paintbrush {
@@ -757,6 +757,13 @@ footer h3 {
         padding-right: 10%;
     }
 
+    /* Contact */
+
+    #contact-me-intro p {
+        margin-left: 20%;
+        margin-right: 20%; 
+    }
+
     /* Footer */
 
     footer h3 {
@@ -783,6 +790,12 @@ footer h3 {
         right: 20px;
     }
 
+    /* Contact */
+
+    #contact-me-intro p {
+        margin-left: 30%;
+        margin-right: 30%; 
+    }
 
 }
 
