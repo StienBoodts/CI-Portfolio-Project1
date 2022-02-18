@@ -154,6 +154,20 @@ Add 'badges' to show which art pieces have been added recently.
 
 ## Deployment
 ---
+This project was developed on Gitpod, committed to Git and pushed onto the [Github repository](https://github.com/StienBoodts/CI-Portfolio-Project1) using Bash. 
+
+To deploy the website from the repository onto Github Pages the following steps were taken:
+
+1. log into Github
+2. from the list of repositories, choose **StienBoodts/CI-Portfolio-Project1**.
+3. Navigate to **Settings** at the top of the repository.
+4. Choose **Pages** from the menu on the left of the page.
+5. In the Source Section, select **Branch: main** in the drop down menu.
+6. Leave **/(root)** selected in the next drop down menu.
+7. Press **Save**
+8. The page will refresh and the **link to the deployed website** will appear at the top.
+
+
 
 ## Credits & Resources
 ---
