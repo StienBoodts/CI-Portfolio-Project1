@@ -150,7 +150,19 @@ Add 'badges' to show which art pieces have been added recently.
 
 ### Validator Testing 
 
+
+### WAVE Web Accessibility Evaluation Tool
+
+- 'Home' link removed from menu as it was flagged as redundant because the logo is a link to index.html.
+- Correct use of h1, h2, h3, ... headings.
+- Fixed contrast issue on hover over links in footer.
+
+
 ### Unfixed Bugs
+
+- 1 alert using WAVE accessability tool was a redundant link in footer to the contact page, however this link goes together with a call to action for commission pieces so I decided to keep it in the footer for the ease of users wanting to get in touch.
+
+
 
 ## Deployment
 ---
@@ -196,6 +208,6 @@ To deploy the website from the repository onto Github Pages the following steps 
     - Pexels was used for images on about.html and background image on shipping.html and contact.html
     - Credits: 
         - Artist portrait, about.html; Photo by Stefan Stefancik from Pexels.
-        - Art Galleries, about.html; First photo by furkanfdemir from Pexels, Second photo by Erik Mclean from Pexels, Third photo by Rachel Claire from Pexels, Last photo by Godisable Jacob from Pexels.
+        - Art Galleries, about.html; Background photo by Markus Spiske from Pexels, first photo by furkanfdemir from Pexels, second photo by Erik Mclean from Pexels, third photo by Rachel Claire from Pexels, last photo by Godisable Jacob from Pexels.
         - Market Photo, about.html: Photo by Gabriel Peter from Pexels.
         - Background photo on contact.html and shipping.html: Photo by Tara Winstead from Pexels.
