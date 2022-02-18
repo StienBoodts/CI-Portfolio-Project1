@@ -141,6 +141,10 @@ Add 'badges' to show which art pieces have been added recently.
     - Gitpod workspaces was used to create and edit code and push them onto the Github repo.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from the Gitpod.
+1. [Hover.css](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts](https://fonts.google.com/)
+    - Google fonts was used to import the 'Montserrat' and 'Nothing You Could Do' (logo) fonts into the style.css file which are used on all pages.
 
 ## Testing 
 ---
