@@ -117,10 +117,6 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
     <img src="planning/shipping-info.jpg" width="500"/><br>
 
-- __New Artpieces__
-
-    Add 'badges' to show which art pieces have been added recently.
-
 - __Art Measurements__
 
     Add measurements by price on gallery page.
@@ -203,7 +199,7 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
 - #### **Frequent User Goals:**
 1. As a frequent user, I want to find out if there are newly added artpieces.
-    - There will be 'new' badges added to new artpieces once they are updated. Users can also sign up to the newsletter in the footer to be kept updated with all news.
+    - NEW badges are added to new artpieces. Users can also sign up to the newsletter in the footer to be kept updated with all the news.
 
 ## Deployment
 ---
