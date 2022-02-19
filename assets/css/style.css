@@ -27,6 +27,8 @@ body {
     font-family: 'Montserrat', cursive;
 }
 
+/* Wrapper around content to stick footer to bottom of page - tutorial from MDN Web Docs */
+
 .wrapper {
     min-height: 100vh;
     display: grid;
@@ -54,10 +56,6 @@ h4 {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 25px;
-}
-
-.active {
-    font-weight: 800;
 }
 
 .center {
@@ -223,6 +221,8 @@ header {
     display: inline-block;
 }
 
+/* Code to rotate Fontawesome icon - tutorial from MDN Webdocs */
+
 .fa-rotate-by {
     transform: rotate(225deg);
 }
@@ -248,6 +248,8 @@ header {
 }
 
 /* ----------------------------------- Gallery */
+
+/* Code for slideshow on gallery page - tutorial by W3.org */
 
 #slideshow-section {
     min-height: 33vh;
@@ -312,14 +314,6 @@ header {
 #gallery-section {
     margin: 5%;
     min-height: 300px;
-}
-
-.painting-orientation-heading {
-    text-align: center;
-    font-family: 'Montserrat', cursive;
-    font-weight: 500;
-    color: #5E4016;
-    padding-top: 10px;
 }
 
 .painting-wrapper {
@@ -465,7 +459,8 @@ header {
 
 #markets-section {
     margin-top: 20px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
+  
 }
 
 #markets-section h2 {
@@ -609,7 +604,6 @@ footer h3 {
     color: black;
 }
 
-
 .footer-info a:hover {
     color: #286994;
 }
@@ -641,7 +635,7 @@ footer h3 {
 
 .social-links li a i:hover {
     background-color: #91D3FF;
-    color: black;
+    color: #286994;
 
 }
 
