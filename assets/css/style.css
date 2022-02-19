@@ -816,6 +816,10 @@ footer h3 {
         margin-left: 30%;
         margin-right: 30%; 
     }
+
+    .shipping-info {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -845,6 +849,12 @@ footer h3 {
     .contact-form {
         margin-top: 100px;
         line-height: 2rem;
+    }
+
+    /* Shipping */
+
+    .shipping-info {
+        margin-top: 150px;
     }
 }
 
