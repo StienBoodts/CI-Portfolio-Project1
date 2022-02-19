@@ -392,8 +392,7 @@ header {
 
 #life-story {
     margin-top: 20px;
-    margin-bottom: 20px;
-    height: 100%;  
+    margin-bottom: 20px; 
 }
 
 .about-photo-frame {
@@ -418,7 +417,6 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100%;
     text-align: center;
     clear: both;
     margin-top: 20px;
@@ -467,8 +465,7 @@ header {
 
 #markets-section {
     margin-top: 20px;
-    margin-bottom: 20px;
-    height: 100%;   
+    margin-bottom: 20px;  
 }
 
 #markets-section h2 {
