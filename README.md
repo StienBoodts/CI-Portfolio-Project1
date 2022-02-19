@@ -179,10 +179,31 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 - Correct use of h1, h2, h3, ... headings.
 - Fixed contrast issue on hover over links in footer.
 
-
 ### _Unfixed Bugs_
 
 - 1 alert using WAVE accessability tool was a redundant link in footer to the contact page, however this link goes together with a call to action for commission pieces so I decided to keep it in the footer for the ease of users wanting to get in touch.
+
+### _Testing User Stories from User Experience (UX) Section_
+
+- #### **First Time Visitor Goals:**
+1. As a first time user, I want to find out the purpose of the website immediately.
+    - The logo, hero image and text state clearly this website is about art by LLewelyn Henshaw.
+2. As a first time user, I want to find clear navigation to all parts of the website.
+    - The navigation is clear and immediately visible on top of the page, there is no distraction by background.
+3. As a first time user, I want to browse artwork made by the artist and find social links to keep track of new work.
+    - There are several ways to get to the gallery page from the index page or via the main menu from all other pages.
+
+- #### **Returning Visitor Goals:**
+1. As a returning user, I want to find out more about the artist background.
+    - Users can find out more about the artist by navigating to the 'About' page in the main menu.
+2. As a returning user, I want to find out how to get in touch for commission enquiries.
+    - There is a clear call to action in the footer and on the gallery page above the artwork.
+3. As a returning user, I want to find out how to purchase art and how it will be shipped.
+    - On the gallery page users are invited to get in touch if they want to purchase art, the shipping info can be found via a link in the footer. This page is 'under construction' but users are invited to sign up to the newsletter so they can be informed as soon as there is more information available.
+
+- #### **Frequent User Goals:**
+1. As a frequent user, I want to find out if there are newly added artpieces.
+    - There will be 'new' badges added to new artpieces once they are updated. Users can also sign up to the newsletter in the footer to be kept updated with all news.
 
 ## Deployment
 ---
