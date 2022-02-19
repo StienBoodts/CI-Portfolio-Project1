@@ -31,8 +31,8 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
 - #### **Typography**
 
-    <strong>Logo:</strong> Nothing You Could Do (Google Fonts). This font resembles the artist's signature.<br>
-    <strong>Main font:</strong> Montserrat. Clear, legible without being too formal looking.
+    <strong>Logo:</strong> Nothing You Could Do, [Google Fonts](https://fonts.google.com/). This font resembles the artist's signature.<br>
+    <strong>Main font:</strong> Montserrat, [Google Fonts](https://fonts.google.com/). Clear, legible without being too formal looking.
 
 - #### **Wireframes**
 
@@ -50,9 +50,9 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
 - __Navigation Bar__
 
-    Includes a click-able 'logo' and links to all other pages on the website: gallery, about & contact.
+    Includes a click-able 'logo' and links to other pages on the website: gallery, about & contact.
     Navigation bar remains the same on every page on the website to navigate easily back and forth between pages without the need of the browser's own buttons.
-    'Home' link was provided but flagged up in accessability testing as redundant link due to the clickable logo, so it was removed from nav bar.
+    'Home' link was provided but flagged up in accessibility testing as redundant link due to the clickable logo, so it was removed from nav bar.
 
     <img src="planning/navbar.jpg" width="500"/><br>
 
@@ -60,7 +60,7 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
     With the landing page image and text, the user instantly knows what the website is about. It also offers an interior example of the artwork made by Llewelyn Henshaw, which is available on the website. They can see how the art could look in the interior of their favourite room. The wall mock up was designed by [Freepik](https://www.freepik.com/).
 
-    <img src="planning/landing-page-image.jpg" width="500"/><br>
+    <img src="planning/hero-banner.jpg" width="500"/><br>
 
 - __Landing Page Gallery__
 
@@ -83,7 +83,7 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
     <img src="planning/gallery-slideshow.jpg" width="500"/><br>
 
-    - *Gallery:* overview of finished artpieces with prices.
+    - *Gallery:* overview of finished artpieces with prices. There are NEW badges to alert frequent users to new artpieces.
 
     <img src="planning/gallery.jpg" width="500"/><br>
 
@@ -108,14 +108,6 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
     <img src="planning/contact.jpg" width="500"/><br>
 
 ### _Features Left To Implement_
-
-- __Shipping Info__
-
-    Page with shipping Info for the purchase of art work.
-    Currently there is placeholder text with a call to sign up, 
-    so the user can be notified once more info is available.
-
-    <img src="planning/shipping-info.jpg" width="500"/><br>
 
 - __Art Measurements__
 
@@ -155,6 +147,8 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 
 - [HTML](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
+- [WAVE Accessability Evaluation Tool](https://wave.webaim.org/)
+- [Smartbear CrossBrowserTesting](https://crossbrowsertesting.com/)
 
 ### _Validator Testing_
 
@@ -175,9 +169,13 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 - Correct use of h1, h2, h3, ... headings.
 - Fixed contrast issue on hover over links in footer.
 
+### _Crossbrowser Testing_
+
+- Website was tested on a range of devices and through [Smartbear CrossBrowserTesting](https://crossbrowsertesting.com/).
+
 ### _Unfixed Bugs_
 
-- 1 alert using WAVE accessability tool was a redundant link in footer to the contact page, however this link goes together with a call to action for commission pieces so I decided to keep it in the footer for the ease of users wanting to get in touch.
+- 1 alert using [WAVE Accessability Evaluation Tool](https://wave.webaim.org/) was a redundant link in footer to the contact page, however this link goes together with a call to action for commission pieces so I decided to keep it in the footer for the ease of users wanting to get in touch.
 
 ### _Testing User Stories from User Experience (UX) Section_
 
@@ -195,7 +193,7 @@ An online portfolio and gallery to showcase and sell artwork by Llewelyn Henshaw
 2. As a returning user, I want to find out how to get in touch for commission enquiries.
     - There is a clear call to action in the footer and on the gallery page above the artwork.
 3. As a returning user, I want to find out how to purchase art and how it will be shipped.
-    - On the gallery page users are invited to get in touch if they want to purchase art, the shipping info can be found via a link in the footer. This page is 'under construction' but users are invited to sign up to the newsletter so they can be informed as soon as there is more information available.
+    - On the gallery page users are invited to get in touch if they want to purchase art, the shipping info can be found via a link in the footer. This page shows a table with costs and users are invited to sign up to the newsletter.
 
 - #### **Frequent User Goals:**
 1. As a frequent user, I want to find out if there are newly added artpieces.
@@ -249,3 +247,7 @@ To deploy the website from the repository onto Github Pages the following steps 
         - Art Galleries, about.html; Background photo by Markus Spiske from Pexels, first photo by furkanfdemir from Pexels, second photo by Erik Mclean from Pexels, third photo by Rachel Claire from Pexels, last photo by Godisable Jacob from Pexels.
         - Market Photo, about.html: Photo by Gabriel Peter from Pexels.
         - Background photo on contact.html and shipping.html: Photo by Tara Winstead from Pexels.
+
+### _Support_
+
+A special thank you to my mentor Victor Miclovich for his very useful feedback and insights given throughout the mentoring sessions.
